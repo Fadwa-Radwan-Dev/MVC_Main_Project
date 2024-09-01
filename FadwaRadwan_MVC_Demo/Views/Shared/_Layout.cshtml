@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #343a40;
+            padding: 20px 0;
+        }
+
+        header a {
+            margin: 0 10px;
+            color: white !important;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        header a:hover {
+            background-color: #495057 !important;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 15px 0;
+        }
+
+        .container {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <a href="/Home/Index" class="btn btn-outline-light">Home</a>
+            <a href="/Home/AboutUs" class="btn btn-outline-light">About Us</a>
+            <a href="/Home/ContactUs" class="btn btn-outline-light">Contact Us</a>
+            <a href="/Home/Privacy" class="btn btn-outline-light">Privacy</a>
+        </center>
+    </header>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <footer class="fixed-bottom">
+        <center>
+            &copy; route Academy @DateTime.Now.Year. All Rights Reserved.
+        </center>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

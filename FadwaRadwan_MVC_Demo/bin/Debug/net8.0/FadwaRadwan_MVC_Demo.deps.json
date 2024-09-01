@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FadwaRadwan_MVC_Demo/1.0.0": {
+        "runtime": {
+          "FadwaRadwan_MVC_Demo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FadwaRadwan_MVC_Demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
